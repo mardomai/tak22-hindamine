@@ -1,7 +1,13 @@
-#kontainer {
-    display: block;
+#conteiner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    grid-gap: 25px;
 }
 
 .cat {
-    border: 1px slateblue dotted;
+    padding: 25px;
+}
+
+.breed {
+    font-weight: bold;
 }
